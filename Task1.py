@@ -12,3 +12,5 @@ def get_days_from_today (date):
 
 choosen_date = ("2022-02-24")
 print (get_days_from_today(choosen_date))
+
+
