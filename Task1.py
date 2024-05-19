@@ -8,8 +8,6 @@ def get_days_from_today (date):
         return delta.days
     except ValueError:
         return ("Невірний формат дати.Використовуй 'YYYY-mm-dd'")  
-
-
 choosen_date = ("2022-02-24")
 print (get_days_from_today(choosen_date))
 
